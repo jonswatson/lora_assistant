@@ -1,0 +1,5 @@
+# ───── LoRA Dataset Prep settings ─────
+input_folder: "./input"        # ↳ relative or absolute path to your raw images
+output_folder: "./output"      # ↳ where cropped images & .txt captions will be saved
+crop_size: 1024                 # square side length in pixels (512 or 1024 typical)
+global_tags: "jowatson92"   # tags appended automatically to every caption
